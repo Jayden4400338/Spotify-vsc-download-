@@ -54,3 +54,47 @@ After pressing a key, the script will download:
 Both will appear in the same folder.
 
 
+# 🛠️ How the Script Works
+
+Here’s the code used in setup-tools.bat:
+
+@echo off
+echo download all
+echo.
+echo click any key to continue
+pause >nul
+
+echo.
+echo Downloading Spotify...
+powershell -Command "Invoke-WebRequest -Uri https://download.scdn.co/SpotifySetup.exe -OutFile SpotifySetup.exe"
+
+echo.
+echo Downloading Visual Studio Code...
+powershell -Command "Invoke-WebRequest -Uri https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user -OutFile VSCodeSetup.exe"
+
+echo.
+echo Downloads complete.
+pause
+
+# 🔄 Optional: Convert to EXE
+
+If you want to turn the batch script into an .exe file:
+
+1.	Download Bat To Exe Converter
+	
+ 2.	Open it and select setup-tools.bat
+	
+ 3.	Click Compile to generate a .exe
+
+
+# ⚠️ Notes
+•	Requires PowerShell (available by default on Windows 10/11).
+	
+ •	Requires internet access.
+	
+ •	Files are downloaded directly from official sources.
+
+# 📄 License
+
+This project is licensed under the MIT License — free to use, modify, and share.
+
