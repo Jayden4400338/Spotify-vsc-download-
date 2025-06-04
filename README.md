@@ -18,10 +18,13 @@ When you run the script:
 click any key to continue
 
 2.	Waits for a key press.
-	3.	Downloads:
+	
+ 3.	Downloads:
 	•	SpotifySetup.exe from the official Spotify server
-	•	VSCodeSetup.exe from the official Visual Studio Code server
-	4.	Saves the installers in the same folder as the script.
+	
+ •	VSCodeSetup.exe from the official Visual Studio Code server
+	
+ 4.	Saves the installers in the same folder as the script.
 
 
 # 📥 How to Use
@@ -29,14 +32,17 @@ click any key to continue
 Step 1: Download or Clone This Repository
 
 Using Git:
-git clone https://github.com/your-username/Spotify-vsc-download.git
+git clone https://github.com/Jayden4400338/Spotify-vsc-download-.git
 
 Or click the green Code button above and download the ZIP.
 
 # Step 2: Run the Script
-	1.	Locate the setup-tools.bat file in File Explorer.
-	2.	Double-click it to run.
-	3.	(Optional) Right-click and select Run as administrator if needed.
+	
+1. Locate the setup-tools.bat file in File Explorer.
+	
+ 2.	Double-click it to run.
+	
+ 3.	(Optional) Right-click and select Run as administrator if needed.
 
 # Step 3: Wait for Downloads
 
