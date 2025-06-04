@@ -12,9 +12,10 @@ This project provides a simple Windows batch script that downloads Spotify and V
 # 🚀 What It Does
 
 When you run the script:
-	1.	It displays:
- download all
-
+	
+ 1.	It displays:
+ 
+download all
 click any key to continue
 
 2.	Waits for a key press.
